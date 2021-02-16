@@ -62,3 +62,5 @@ end
 group :development, :test do
 
 end
+
+gem "pg", "~> 1.2"
