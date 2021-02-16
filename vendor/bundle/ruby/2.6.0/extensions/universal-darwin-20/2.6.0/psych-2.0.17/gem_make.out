@@ -1,0 +1,29 @@
+current directory: /Users/superflit/Documents/Clientes/EngineYard/schema/todo/vendor/bundle/ruby/2.6.0/gems/psych-2.0.17/ext/psych
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20210216-47007-cc659l.rb extconf.rb
+checking for yaml.h... yes
+checking for yaml_get_version() in -lyaml... yes
+creating Makefile
+
+current directory: /Users/superflit/Documents/Clientes/EngineYard/schema/todo/vendor/bundle/ruby/2.6.0/gems/psych-2.0.17/ext/psych
+make "DESTDIR=" clean
+
+current directory: /Users/superflit/Documents/Clientes/EngineYard/schema/todo/vendor/bundle/ruby/2.6.0/gems/psych-2.0.17/ext/psych
+make "DESTDIR="
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.bundle
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.2.Internal.sdk/usr/local/lib'
+ld: warning: ignoring file psych_emitter.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file psych.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file psych_parser.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file psych_to_ruby.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file /usr/local/lib/libyaml.dylib, building for macOS-arm64e but attempting to link with file built for macOS-x86_64
+ld: warning: ignoring file psych_yaml_tree.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.2.Internal.sdk/usr/local/lib'
+
+current directory: /Users/superflit/Documents/Clientes/EngineYard/schema/todo/vendor/bundle/ruby/2.6.0/gems/psych-2.0.17/ext/psych
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 psych.bundle ./.gem.20210216-47007-3juawa
