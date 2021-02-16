@@ -10,7 +10,7 @@ gem 'rails', '~> 4.2.0'
 gem 'ey_config'
 gem 'rails_autolink'
 gem 'simple_form'
-gem 'gsl'
+
 
 # Assets
 gem 'jquery-rails'
