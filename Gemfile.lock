@@ -375,7 +375,7 @@ DEPENDENCIES
   mysql2 (~> 0.4.10)
   newrelic_rpm (~> 3.9.9)
   nokogiri (~> 1.6.0)
-  pg (~> 1.2)
+  pg (~> 1.2.3)
   psych (~> 2.0.8)
   puma
   racc
