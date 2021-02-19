@@ -24,7 +24,6 @@ gem 'uglifier'
 
 platform :ruby do
   gem 'mysql2', '~> 0.4.10'
-  gem 'pg', '~> 1.2.3'
   gem 'activerecord-postgis-adapter', '3.0.0.beta2'
   gem 'sqlite3'
 
@@ -59,8 +58,3 @@ end
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
-group :development, :test do
-
-end
-
-gem "pg", "~> 1.2.3"
