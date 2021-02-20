@@ -36,20 +36,6 @@ platform :ruby do
   gem 'racc'
 end
 
-platforms :jruby do
-  ar_jdbc_version = '~> 1.3'
-  gem 'activerecord-jdbc-adapter', ar_jdbc_version
-  gem 'activerecord-jdbcmysql-adapter', ar_jdbc_version
-  gem 'activerecord-jdbcpostgresql-adapter', ar_jdbc_version
-  gem 'activerecord-jdbcsqlite3-adapter', ar_jdbc_version
-  gem 'jdbc-mysql', :require => false
-  gem 'jdbc-sqlite3', :require => false
-  gem 'jdbc-postgres', :require => false
-
-  gem 'jruby-openssl'
-  gem 'trinidad'
-end
-
 platform :rbx do
   gem 'rubysl'
   gem 'rubysl-test-unit', :require => false
