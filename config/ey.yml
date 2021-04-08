@@ -148,8 +148,8 @@ defaults:
   #
   #your_own_custom_key: custom info
 
-  #copy_exclude:
-  #- ".git"
+  copy_exclude:
+  - ".git"
 
   ignore_gemfile_lock_warning: true
 
